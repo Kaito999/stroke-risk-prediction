@@ -20,6 +20,10 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
 - Performance Assessment
   Performance evaluation includes confusion matrices, ROC curves, and other metrics for both logistic regression and XGBoost models.
 
+## Faced challenges
+![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/f7ba2b29-4389-431a-a3f6-95edf26129f7)
+- Data Imbalance
+
 ## Project Structure
 - `src/`: Contains the script for data preprocessing, model development, and evaluation.
 - `data/`: Contains the Kaggle-sourced dataset.
