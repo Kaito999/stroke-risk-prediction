@@ -1,18 +1,24 @@
 # importing the necessary libraries - R version [4.3.2]
 
+library(caret)
+library(ROCR)
+library(pROC)
+library(patchwork)
+library(rsample)
+library(tidymodels)
 library(gtsummary)
 library(tidyverse)
-library(ggplot2)
 library(corrplot)
 library(ggcorrplot)
-library(caret)
-library(tidymodels)
+library(ggplot2)
+library(patchwork)
+library(timeDate)
+library(modeldata)
 library(vip)
 library(MLmetrics)
 library(imbalance)
-library(pROC)
-library(rsample)
-library(timeDate)
+library(gridExtra)
+library(AICcmodavg)
 
 
 #------------------------ 1. Preparing the data-set ----------------------------
@@ -50,6 +56,8 @@ stroke_data <- process_stroke_data(stroke_data)
 
 
 # --------------------- 2. Exploratory data analysis ---------------------------
+
+summary(stroke_data)
 
 # 2.1 density plots ------------------------------------------------------------
 
@@ -380,3 +388,4 @@ x_test <- stroke_test %>% select(-stroke)
 xbg_pred <- predict(xgb_model, newdata = x_test) 
 
 confusionMatrix(xbg_pred, factor(stroke_test[["stroke"]]), positive = "1")
+
