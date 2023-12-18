@@ -6,7 +6,7 @@
   
 </div>
 
-# Stroke Risk Prediction
+# :brain: Stroke Risk Prediction
 
 Stroke is the second leading cause of death globally. This repository contains the code and documentation for a educational research project on stroke risk prediction. The project investigates the escalating incidence of strokes, leveraging a Kaggle-sourced dataset with 11 clinical features.
 
