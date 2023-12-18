@@ -28,7 +28,7 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
 - Performance Assessment
   Performance evaluation includes confusion matrices, ROC curves, and other metrics for both logistic regression and XGBoost models.
 
-## Faced challenges
+## :triangular_flag_on_post: Faced challenges
 <div align="center">
   
   <a href="">![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/1b273b77-bcde-435f-9311-23574ed84288)</a>
@@ -42,7 +42,7 @@ To address class imbalance in the dataset was used the Majority Weighted Minorit
 focusing on instances with fewer neighbors. It assigns weights to majority class instances based on their proximity to the minority class, guiding the generation 
 of synthetic samples to balance the class distribution. This makes the model more capable of learning challenging instances.
 
-## Results
+## :chart_with_upwards_trend: Results
 
 - The Logistic Regression Model was created by using the ‘glm’ method and ‘binomial’ family.
 - The other model is XGBoost, it is a model from the tree-based family.
