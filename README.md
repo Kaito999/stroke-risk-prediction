@@ -85,7 +85,8 @@ source("./src/install_libraries.R")
 ## Usage
 1. Open the project: `stroke-risk-prediction/stroke-risk-prediction.Rproj`
 2. Access the code: `src/stroke_risk_prediction.R`
-3. Execute step by step the code inside script
+3. Execute step by step the code inside the script
 
-## License
+## :memo:
+:pencil: License
 This project is licensed under the [MIT] - see the [LICENSE](LICENSE) file for details.
