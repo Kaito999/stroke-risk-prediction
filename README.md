@@ -29,8 +29,8 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
 ## Requirements
 - [RStudio](https://posit.co/download/rstudio-desktop/)
 - R [version 4.3.2](https://cran.r-project.org/bin/windows/base/)
-- Required libraries:
-```
+- Run this command in RStudio console to install the required libraries:
+```bash
 source("./src/install_libraries.R")
 ```
 
