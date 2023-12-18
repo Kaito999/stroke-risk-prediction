@@ -79,7 +79,7 @@ source("./src/install_libraries.R")
 ```
 
 ## Setup
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone https://github.com/Kaito999/stroke-risk-prediction.git`
 2. Navigate to the project directory: `cd stroke-risk-prediction`
 
 ## Usage
