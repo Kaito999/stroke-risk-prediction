@@ -47,6 +47,8 @@ of synthetic samples to balance the class distribution. This makes the model mor
 - The Logistic Regression Model was created by using the ‘glm’ method and ‘binomial’ family.
 - The other model is XGBoost, it is a model from the tree-based family.
 
+<div align="center">
+  
 | Metric                              | Logistic Regression Model | XGBoost Model |
 |-------------------------------------|---------------------------|---------------|
 | Accuracy                            | 81.13%                    | 96.15%        |
@@ -56,7 +58,8 @@ of synthetic samples to balance the class distribution. This makes the model mor
 | Positive Predictive Value (PPV)     | 78.83%                    | 97.27%        |
 | Negative Predictive Value (NPV)     | 83.83%                    | 95.09%        |
 | Balanced Accuracy                   | 81.13%                    | 96.15%        |
-
+  
+</div>
 
 
 ## Project Structure
