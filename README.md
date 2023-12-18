@@ -22,7 +22,8 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
 
 ## Faced challenges
 ![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/1b273b77-bcde-435f-9311-23574ed84288)
-- Data Imbalance
+**Data Imbalance**
+
 
 ## Project Structure
 - `src/`: Contains the script for data preprocessing, model development, and evaluation.
