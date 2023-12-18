@@ -62,7 +62,7 @@ of synthetic samples to balance the class distribution. This makes the model mor
 </div>
 
 
-## Project Structure
+## :open_file_folder: Project Structure
 - `src/`: Contains the script for data preprocessing, model development, and evaluation.
 - `data/`: Contains the Kaggle-sourced dataset.
 - `plots/`: Includes visualizations generated during the exploratory data analysis.
