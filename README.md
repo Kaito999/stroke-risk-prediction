@@ -42,6 +42,22 @@ To address class imbalance in the dataset was used the Majority Weighted Minorit
 focusing on instances with fewer neighbors. It assigns weights to majority class instances based on their proximity to the minority class, guiding the generation 
 of synthetic samples to balance the class distribution. This makes the model more capable of learning challenging instances.
 
+## Results
+
+- The Logistic Regression Model was created by using the ‘glm’ method and ‘binomial’ family.
+- The other model is XGBoost, it is a model from the tree-based family.
+
+| Metric                              | Logistic Regression Model | XGBoost Model |
+|-------------------------------------|---------------------------|---------------|
+| Accuracy                            | 81.13%                    | 96.15%        |
+| Sensitivity (True Positive Rate)    | 85.12%                    | 94.97%        |
+| Specificity (True Negative Rate)    | 77.15%                    | 97.33%        |
+| Kappa Statistic                     | 0.6226                    | 0.923         |
+| Positive Predictive Value (PPV)     | 78.83%                    | 97.27%        |
+| Negative Predictive Value (NPV)     | 83.83%                    | 95.09%        |
+| Balanced Accuracy                   | 81.13%                    | 96.15%        |
+
+
 
 ## Project Structure
 - `src/`: Contains the script for data preprocessing, model development, and evaluation.
@@ -53,7 +69,7 @@ of synthetic samples to balance the class distribution. This makes the model mor
 > [!NOTE]
 > ## Requirements
 - [RStudio](https://posit.co/download/rstudio-desktop/)
-- [Rversion 4.3.2](https://cran.r-project.org/bin/windows/base/)
+- [R version 4.3.2](https://cran.r-project.org/bin/windows/base/)
 - Run this command in RStudio console to install the required libraries:
 ```bash
 source("./src/install_libraries.R")
