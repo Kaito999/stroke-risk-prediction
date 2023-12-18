@@ -1,3 +1,5 @@
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+
 # Stroke Risk Prediction
 
 Stroke is the second leading cause of death globally. This repository contains the code and documentation for a educational research project on stroke risk prediction. The project investigates the escalating incidence of strokes, leveraging a Kaggle-sourced dataset with 11 clinical features.
