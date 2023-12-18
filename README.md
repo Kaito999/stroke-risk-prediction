@@ -36,6 +36,7 @@ of synthetic samples to balance the class distribution. This makes the model mor
 - `plots/`: Includes visualizations generated during the exploratory data analysis.
 - `report/`: Contains the presentation and the scientific paper of the project.
 
+
 > [!NOTE]
 > ## Requirements
 - [RStudio](https://posit.co/download/rstudio-desktop/)
@@ -55,4 +56,4 @@ source("./src/install_libraries.R")
 3. Execute step by step the code inside script
 
 ## License
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT] - see the [LICENSE](LICENSE) file for details.
