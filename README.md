@@ -21,7 +21,7 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
   Performance evaluation includes confusion matrices, ROC curves, and other metrics for both logistic regression and XGBoost models.
 
 ## Faced challenges
-![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/f7ba2b29-4389-431a-a3f6-95edf26129f7)
+![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/1b273b77-bcde-435f-9311-23574ed84288)
 - Data Imbalance
 
 ## Project Structure
