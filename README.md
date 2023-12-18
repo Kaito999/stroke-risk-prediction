@@ -36,6 +36,7 @@ of synthetic samples to balance the class distribution. This makes the model mor
 - `plots/`: Includes visualizations generated during the exploratory data analysis.
 - `report/`: Contains the presentation and the scientific paper of the project.
 
+> [!NOTE]
 ## Requirements
 - [RStudio](https://posit.co/download/rstudio-desktop/)
 - [Rversion 4.3.2](https://cran.r-project.org/bin/windows/base/)
