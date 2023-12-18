@@ -3,7 +3,7 @@
 Stroke is the second leading cause of death globally. This repository contains the code and documentation for a educational research project on stroke risk prediction. The project investigates the escalating incidence of strokes, leveraging a Kaggle-sourced dataset with 11 clinical features.
 
 ## Materials & Methods
-The project utilizes a Kaggle-sourced dataset with 11 clinical features. The dataset undergoes data preprocessing, exploratory data analysis, and the development of logistic regression and XGBoost models.
+The dataset undergoes data preprocessing, exploratory data analysis, and the development of logistic regression and XGBoost models.
 
 - Exploratory Data Analysis (EDA)
   The EDA process involves visualization tools such as R and ggplot2 to analyze stroke events across demographic and lifestyle factors. Unexpected findings, such as the relationship between glucose levels and strokes, are explored.
@@ -20,32 +20,28 @@ The project utilizes a Kaggle-sourced dataset with 11 clinical features. The dat
 - Performance Assessment
   Performance evaluation includes confusion matrices, ROC curves, and other metrics for both logistic regression and XGBoost models.
 
-### Project Structure
+## Project Structure
 - `src/`: Contains the script for data preprocessing, model development, and evaluation.
 - `data/`: Contains the Kaggle-sourced dataset.
 - `plots/`: Includes visualizations generated during the exploratory data analysis.
 - `report/`: Contains the presentation and the scientific paper of the project.
 
 ## Requirements
-- R (version 4.3.2)
-- For installation of libraries run the following command in RStudio console:
-
+- [RStudio](https://posit.co/download/rstudio-desktop/)
+- R [version 4.3.2](https://cran.r-project.org/bin/windows/base/)
+- Required libraries:
 ```
 source("./src/install_libraries.R")
 ```
 
-### Setup
+## Setup
 1. Clone the repository: `git clone [repository-url]`
 2. Navigate to the project directory: `cd stroke-risk-prediction`
 
-### Usage
-1. Run data preprocessing scripts: `Rscript code/preprocess_data.R`
-2. Execute exploratory data analysis: `Rscript code/eda.R`
-3. Train logistic regression model: `Rscript code/train_logistic_regression.R`
-4. Evaluate model performance: `Rscript code/evaluate_models.R`
+## Usage
+1. Open the project: `stroke-risk-prediction/stroke-risk-prediction.Rproj`
+2. Access the code: `src/stroke_risk_prediction.R`
+3. Execute step by step the code inside script
 
-### Contributing
-Feel free to contribute to this project by forking the repository and creating a pull request. For major changes, please open an issue to discuss potential updates.
-
-### License
+## License
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
