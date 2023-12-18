@@ -22,7 +22,11 @@ The dataset undergoes data preprocessing, exploratory data analysis, and the dev
 
 ## Faced challenges
 ![image](https://github.com/Kaito999/stroke-risk-prediction/assets/90338276/1b273b77-bcde-435f-9311-23574ed84288)
+
 **Data Imbalance**
+To address class imbalance in the dataset was used the Majority Weighted Minority Oversampling Technique (MWMOTE). This technique oversamples the minority class, 
+focusing on instances with fewer neighbors. It assigns weights to majority class instances based on their proximity to the minority class, guiding the generation 
+of synthetic samples to balance the class distribution. This makes the model more capable of learning challenging instances.
 
 
 ## Project Structure
